@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    color: orange;
+}
+
+#bgimage {
+background-image: url('../fullScreenLandingPage/image/architecture-buildings-canada-457937.jpg');
+width: 100vw;
+height: 100vh;
+
+background-position: center;
+background-size: cover;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#bgimage .action {
+    color: darkviolet;
+    text-decoration: none;
+    padding: 0.3rem 0.4rem;
+    border: solid red 1px;
+    border-radius: .5rem;
+    margin-top: 1rem;
+}
+
+#bgimage .action:hover {
+    background-color: orange;
+    color: rgb (255, 255, 255, 1);
+
+}
+
+.sectionA {
+    background-color: black;
+}
