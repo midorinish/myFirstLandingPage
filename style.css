@@ -39,3 +39,15 @@ align-items: center;
 .sectionA {
     background-color: black;
 }
+
+.sectionB .container {
+    display: flex;
+}
+
+.section-b-card-1, 
+.section-b-card-2,
+.section-b-card-3,
+{
+    background-color: aquamarine;
+
+}
